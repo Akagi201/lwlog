@@ -1,12 +1,18 @@
-lw-clogger
+lw-clogger 
 ==========
 
+[![Build Status](https://travis-ci.org/Akagi201/lw-clogger.svg)](https://travis-ci.org/Akagi201/lw-clogger)
+
 ## Features
-* Transparent logging to file/console/network/syslog.
-* Support different logging levels.
-* Customizable log level, module name.
-* Zero performance overhead when logging is disabled.
 * Simple APIs similar to printf().
+* Support different logging levels.
+* Zero performance overhead when logging is disabled.
+* Transparent logging to file/console/network/syslog. [TODO]
+* Customizable module name. [TODO]
+
+## Macros
+* CLOG_SILENT: on/off lw-clogger's own error message.
+* CLOG_MAX_MSG_LEN: max print message length.
 
 ## build & test
 ```

@@ -1,0 +1,29 @@
+{
+  "name": "lwlog",
+  "main": "lwlog",
+  "version": "0.1.0",
+  "description": "A light weight header only logging library for C.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Akagi201/lwlog.git"
+  },
+  "src": [
+    "lwlog.h"
+  ],
+  "homepage": "https://github.com/Akagi201/lwlog",
+  "keywords": [
+    "log",
+    "debug",
+    "print",
+    "diagnostics"
+  ],
+  "author": {
+    "name": "Bob Liu",
+    "email": "akagi201@gmail.com",
+    "url": "http://akagi201.org"
+  },
+  "license": {
+    "type": "Apache",
+    "url": "https://github.com/Akagi201/lwlog/blob/master/LICENSE"
+  }
+}

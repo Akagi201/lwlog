@@ -1,6 +1,8 @@
 lwlog
 =====
 
+[![Build Status](https://travis-ci.org/Akagi201/lwlog.svg?branch=master)](https://travis-ci.org/Akagi201/lwlog)
+
 A header only, colorful, leveled, macro implemented logging lib for C.
 
 ```C
